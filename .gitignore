@@ -1,0 +1,50 @@
+# Developer tools' files
+.lite_workspace.lua
+
+# Neutralinojs binaries and builds
+/bin
+/dist
+
+# Neutralinojs client (minified)
+neutralino.js
+
+# Neutralinojs related files
+.storage
+*.log
+
+# Node / package manager files
+node_modules/
+bun.lock
+
+# Environment files
+/.env
+.env.*
+
+# Editor / IDE
+/.vscode/
+/.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage / build output
+/coverage/
+.nyc_output/
+/build/
+
+# Caches and tool artifacts
+.cache/
+.eslintcache
+
+# Parcel / bundler cache (already present but keep canonical name)
+/.parcel-cache/
+parcel-cache/
+
+# Package manager and tool logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn PnP
+/.pnp.*
